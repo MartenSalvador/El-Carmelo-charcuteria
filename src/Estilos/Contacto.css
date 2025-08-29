@@ -1,0 +1,48 @@
+
+.contacto-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px 0;
+    gap: 50px;
+
+}
+
+.contacto-container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #4E342E;
+}
+.contacto-tarjetero{
+    display: flex;
+    gap: 20px;
+}
+.contacto-tarjeta:hover{
+    border: 1px solid #4E342E;
+}
+.contacto-tarjeta{
+    background-color: #F5E9DC;
+    border-radius: 10px;
+}
+.contacto-instacontainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto-logo{
+    font-size: 80px;
+    padding: 10px;
+    color: #4E342E;
+}
+.contacto-texto{
+    text-align: center;
+    width: 400px;
+}
+.contacto-texto p{
+    font-size: 20px;
+}

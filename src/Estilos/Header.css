@@ -1,0 +1,41 @@
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-link:hover{
+    color: #c0392b;
+    transform: scale(1.1);
+}
+
+.wsp-header{
+    color: #25D366;
+    font-size: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.wsp-header:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .nav{
+        justify-content: center;
+    }
+  .nav-link{
+    font-size: 10px;
+  }
+  }

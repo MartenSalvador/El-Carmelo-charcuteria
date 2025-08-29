@@ -1,0 +1,43 @@
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logo-footer{
+    margin: 5px;
+}
+.text-footer{
+    display: flex;
+    align-items: center;
+}
+
+.redes-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta-footer{
+    color: #e56969;
+    font-size: 25px;
+    transition: transform 0.3s ease;
+}
+.insta-footer:hover{
+    transform: scale(1.2);
+}
+
+.logoCarmelo-footer{
+    width: 25px;
+     border-radius: 50%;
+  border: 2px solid white;
+}
+
+@media (max-width: 768px) {
+  .text-footer{
+    font-size: 10px;
+  }
+  }

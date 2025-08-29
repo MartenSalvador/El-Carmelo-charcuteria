@@ -1,0 +1,25 @@
+
+.product-card{
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #F5E9DC;
+}
+
+.imagen-producto{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .imagen-producto{
+        width: 50%;
+    }
+    .product-card{
+        width: 40%;
+        height: 30%;
+        margin: 5px;
+    }
+  }

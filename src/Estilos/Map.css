@@ -41,10 +41,12 @@
     color: #25D366;
     margin: 0;
     padding: 0;
-    font-size: 25px;
-    margin-left: 15px;
+    font-size: 40px;
     cursor: pointer;
     transition: transform 0.3s ease;
+}
+.numero{
+    margin-top: 10px;
 }
 .wsp-map:hover{
     transform: scale(1.2);
@@ -62,5 +64,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    gap: 10px;
+    padding: 20px;
   }
 }

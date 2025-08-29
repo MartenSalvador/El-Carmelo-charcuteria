@@ -7,10 +7,11 @@ function Map() {
             <div className='map-text'>
                 <h2>Donde Encontrarnos</h2>
                 <p>3 de febrero 840, San Rafael, Mendoza 5600</p>
-                <p>+54 9 260 481-0791
-                    <a href="https://api.whatsapp.com/send?phone=5492604810791&text=Quer%C3%A9s+hacerme+alguna+pregunta%2C+o+adquirir+productos%2C+env%C3%ADame+un+WhatsApp%21&fbclid=PAZXh0bgNhZW0CMTEAAafcPoerkQXpupFryV6uBE1yTknjrjjsNfNXB80kES-sdscDuY2nvMA3WcE7Gw_aem_P0Q1X5rkGW_rPm8_AxqPgQ" target='_blank'>
+                <a href="https://api.whatsapp.com/send?phone=5492604810791&text=Quer%C3%A9s+hacerme+alguna+pregunta%2C+o+adquirir+productos%2C+env%C3%ADame+un+WhatsApp%21&fbclid=PAZXh0bgNhZW0CMTEAAafcPoerkQXpupFryV6uBE1yTknjrjjsNfNXB80kES-sdscDuY2nvMA3WcE7Gw_aem_P0Q1X5rkGW_rPm8_AxqPgQ" target='_blank'>
                         <FaWhatsapp className='wsp-map' />
                     </a>
+                <p className='numero'>+54 9 260 481-0791
+                    
                 </p>
             </div>
             <div className='map-image' onClick={() => window.open("https://www.google.com/maps/place/El+Carmelo+Charcutería", "_blank")} style={{ cursor: "pointer" }}>

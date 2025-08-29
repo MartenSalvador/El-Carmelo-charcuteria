@@ -23,7 +23,7 @@ function Footer() {
                     <FaInstagram className="insta-footer" />
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=5492604810791&text=Quer%C3%A9s+hacerme+alguna+pregunta%2C+o+adquirir+productos%2C+env%C3%ADame+un+WhatsApp%21&fbclid=PAZXh0bgNhZW0CMTEAAafcPoerkQXpupFryV6uBE1yTknjrjjsNfNXB80kES-sdscDuY2nvMA3WcE7Gw_aem_P0Q1X5rkGW_rPm8_AxqPgQ" target='_blank'>
-                    <FaWhatsapp className='wsp-map' />
+                    <FaWhatsapp className='insta-footer wsp' />
                 </a>
 
             </div>

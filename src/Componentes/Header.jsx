@@ -11,8 +11,8 @@ function Header() {
           <FaWhatsapp className='wsp-header' />
         </a>
         <NavLink to="/" className="nav-link" end  >Inicio</NavLink>
-        <NavLink to="/nosotros" className="nav-link" >Nosotros</NavLink>
-        <NavLink to="/productos" className="nav-link" >Productos</NavLink>
+        {/*<NavLink to="/nosotros" className="nav-link" >Nosotros</NavLink>
+        <NavLink to="/productos" className="nav-link" >Productos</NavLink>*/}
         <NavLink to="/contacto" className="nav-link" >Contacto</NavLink>
 
       </nav>

@@ -2,7 +2,7 @@
 
 .nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: #f8f8f8;
     padding: 10px 0;
@@ -36,6 +36,6 @@
         justify-content: center;
     }
   .nav-link{
-    font-size: 10px;
+    font-size: 15px;
   }
   }
